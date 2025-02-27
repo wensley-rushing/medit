@@ -2,26 +2,25 @@
 
 OpenGL-based scientific visualization software
 
+-------------------------
+
+
+This project is a fork of [https://github.com/ISCDtoolbox/Medit](https://github.com/ISCDtoolbox/Medit)
+
+
 Medit was developped to visualize numerical simulation results on unstructured meshes in two and three dimensions. Scalar, vector and tensor fields can be easily associated and displayed with meshes.
 
 #### Installation
 
-In a terminal, clone this repository:
+To compile:
 
-   ` git clone https://github.com/ISCDtoolbox/Medit.git `
-
-   navigate to the downloaded directory:
-
-   ` cd Medit `
-
-   then create build directory and compile the project using cmake
-   ```
-   mkdir build
-   cd build
-   cmake ..
-   make
-   make install
-   ```
+```
+mkdir build
+cd build
+cmake ..
+make
+make install
+```
 
 #### Usage
 
